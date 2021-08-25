@@ -56,6 +56,7 @@ img {
     padding: 30px;
     position: absolute;
     background: rgba(148, 108, 224, 0.9);
+    border-radius: 25px;
     color: #fff;
     width: 80%;
     height: 40%;
@@ -66,6 +67,7 @@ img {
     padding: 10px;
     background-color:#EBB703;
     color: #fff;
+    box-shadow: 0px 16px 11px -12px #00265214;
 }
 .main-ima{
     width: 80%;
