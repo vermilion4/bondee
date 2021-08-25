@@ -49,6 +49,7 @@ img {
 .hero-section {
     height: 80vh;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .hero-text {
@@ -66,7 +67,20 @@ img {
     background-color:#EBB703;
     color: #fff;
 }
+.main-ima{
+    width: 80%;
+    margin: 20px auto;
+    height: 80%;
+}
+p.text-center{
+    font-weight: 500;
+}
 
+@media (min-width: 1024px) {
+    .hero-text{
+        width: 60%;
+    }
+}
 
 @media (min-width: 992px) {
     .reg-button {
