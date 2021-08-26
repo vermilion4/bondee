@@ -93,7 +93,7 @@ img {
     margin: 0 auto;
     height: 80%;
 }
-.col-md-4{
+.col-md-4.main{
     margin-top: 30px;
 }
 p.text-center{
@@ -168,11 +168,29 @@ p.text-center{
 }
 .contact-section{
     position: relative;
-    background-color: #946CE0;
+    margin-bottom: 50px;
 }
 .btn{
     background: #5D28C0;
     padding: 10px;
+    font-weight: 700;
+}
+input[type='email']{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.fab{
+    font-size: 4rem;
+    color: #5D28C0;
+}
+.icons{
+    gap: 25px;
+}
+.footer{
+    background-color: #946CE0;
+    margin-top: 20px;
+    padding-top: 10px;
     font-weight: 700;
 }
 
