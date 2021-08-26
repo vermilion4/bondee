@@ -71,12 +71,12 @@ img {
 }
 .main-ima{
     width: 80%;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     height: 80%;
 }
 p.text-center{
     font-weight: 500;
-    margin: 25px 0;
+    margin-bottom: 60px;
 }
 
 @media (min-width: 1024px) {
