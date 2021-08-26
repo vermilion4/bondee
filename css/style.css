@@ -5,23 +5,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-size: 16px;
     font-family: 'Poppins';
     font-weight: 200;
 }
-html,body
-{
+
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
+
 .navbar-toggler {
     background-color: #946CE0;
 }
-.navbar{
+
+.navbar {
     width: 100%;
 }
 
@@ -59,7 +63,7 @@ img {
 }
 
 .hero-section {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     margin-bottom: 30px;
     position: relative;
@@ -75,70 +79,82 @@ img {
     height: auto;
     text-align: center;
 }
-.sign-button{
+
+.sign-button {
     width: 200px;
     padding: 10px;
-    background-color:#EBB703;
+    background-color: #EBB703;
     color: #fff;
     box-shadow: 0px 16px 11px -12px #00265214;
 }
 
-.about-section{
+.about-section {
     padding: 20px 0;
     margin-bottom: 30px;
     padding-bottom: 200px;
 }
-.main-ima{
+
+.main-ima {
     width: 80%;
     margin: 0 auto;
     height: 80%;
 }
-.col-md-4.main{
+
+.col-md-4.main {
     margin-top: 30px;
 }
-p.text-center{
+
+p.text-center {
     font-weight: 500;
     padding-top: 20px;
-    
+
 }
-.phone-section{
+
+.phone-section {
     background-color: #946CE0;
     position: relative;
     padding-top: 50px;
 }
-.phone-container{
+
+.phone-container {
     width: 100%;
-      position: relative;
-      transform: none
+    position: relative;
+    transform: none
 }
-.one{
+
+.one {
     position: absolute;
     top: 8%;
     left: 25%;
     z-index: 100;
 }
-.two{
+
+.two {
     transform: none;
     left: -5%;
 }
-.phone-container-pic{
+
+.phone-container-pic {
     width: 100%;
 }
+
 .phone-pic {
-      position: absolute;
-      top: 10%;
-      left: 14%;
-      width: 100%;
-      height: 100%;
-      max-width: 59%;
-      max-height: 63%;
-      z-index: 2;
-      transform: none
-  }
-  .second{
-      transform: none;
-  }
-.phone-text{
+    position: absolute;
+    top: 10%;
+    left: 14%;
+    width: 100%;
+    height: 100%;
+    max-width: 59%;
+    max-height: 63%;
+    z-index: 2;
+    transform: none
+}
+
+.second {
+    transform: none;
+}
+
+.phone-text {
     background: #EBB703E5;
     padding: 20px;
     width: 80%;
@@ -147,47 +163,55 @@ p.text-center{
     top: 25%;
     left: 10%;
     z-index: 1000;
-   
-}
-.contact{
-    background-color: #fff;
-   padding: 30px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   
+
 }
 
-.contact-pic{
+.contact {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-pic {
     object-fit: cover;
 }
 
-.phone-text h1, .contact h1{
+.phone-text h1,
+.contact h1 {
     font-weight: 700;
 }
-.contact-section{
+
+.contact-section {
     position: relative;
     margin-bottom: 50px;
 }
-.btn{
+
+.btn {
     background: #5D28C0;
     padding: 10px;
     font-weight: 700;
 }
-input[type='email']{
+
+input[type='email'] {
     margin-bottom: 20px;
     margin-top: 10px;
     padding: 5px;
 }
-.fab{
-    font-size: 4rem;
+
+.fab {
+    font-size: 3rem;
     color: #5D28C0;
 }
-.icons{
+
+.icons {
     gap: 25px;
 }
-.footer{
+
+.footer {
     background-color: #946CE0;
     margin-top: 20px;
     padding-top: 10px;
@@ -195,10 +219,10 @@ input[type='email']{
 }
 
 @media (min-width: 1024px) {
-    .hero-text{
+    .hero-text {
         width: 60%;
     }
-   
+
 }
 
 @media (min-width: 992px) {
@@ -206,57 +230,57 @@ input[type='email']{
         margin-bottom: 0;
         margin-right: 10px;
     }
-    .sign-button{
+
+    .sign-button {
         margin-top: 50px;
     }
-    .hero-section{
-        height: 90vh;
-    }
-     .phone-container{
+
+    .phone-container {
         width: 50%;
         margin: 0 auto;
     }
-    .one{
+
+    .one {
         left: 35%;
     }
-    .phone-text{
+
+    .phone-text {
         top: 30%;
         padding: 50px 20px;
     }
-   
+
 }
-@media (min-width: 768px) and (max-width: 991px){
-  
-    .main-ima{
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .main-ima {
         width: 100%;
     }
-     .phone-text{
-         top: 30%;
-    padding: 80px 20px;
-}
-}
-@media (min-width: 401px) and (max-width: 767.9px){
-    .hero-section{
-        height: 60vh;
-    }
 
+    .phone-text {
+        top: 30%;
+        padding: 80px 20px;
+    }
 }
 
 @media (max-width: 400px) {
-    .navbar-brand{
+    .navbar-brand {
         width: 60%;
     }
-    .hero-section{
+
+    .hero-section {
         height: 60vh;
     }
-    .sign-button{
+
+    .sign-button {
         margin-top: 10px;
     }
-    h1{
+
+    h1 {
         font-size: 18px;
     }
-    p{
+
+    p {
         font-size: 14px;
     }
 }
-
