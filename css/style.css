@@ -149,9 +149,33 @@ p.text-center{
     z-index: 1000;
    
 }
-.phone-text h1{
+.contact{
+    background-color: #fff;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.contact-pic{
+    object-fit: cover;
+}
+
+.phone-text h1, .contact h1{
     font-weight: 700;
 }
+.contact-section{
+    position: relative;
+    background-color: #946CE0;
+}
+.btn{
+    background: #5D28C0;
+    padding: 10px;
+    font-weight: 700;
+}
+
 @media (min-width: 1024px) {
     .hero-text{
         width: 60%;
