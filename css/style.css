@@ -315,7 +315,10 @@ header{
     width: 100%;
     z-index: 10000;
 }
-
+a{
+    text-decoration: none;
+    color: #fff;
+}
 @media (min-width: 1024px) {
     .hero-text {
         width: 60%;
