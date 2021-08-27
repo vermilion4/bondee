@@ -63,21 +63,21 @@ img {
 }
 
 .hero-section {
-    height: 100vh;
+    height: auto;
     width: 100%;
     margin-bottom: 30px;
-    position: relative;
-}
-
-.hero-text {
-    padding: 50px 30px;
-    position: absolute;
-    background: rgba(148, 108, 224, 0.9);
-    border-radius: 25px;
+    background-color: #946CE0;
     color: #fff;
-    width: 80%;
-    height: auto;
-    text-align: center;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.fab.fa-google-play, .fab.fa-apple{
+    font-size: 2rem;
+    padding: 5px;
+}
+.btn{
+    width: 250px;
 }
 
 .sign-button {
@@ -190,7 +190,7 @@ p.text-center {
     margin-bottom: 50px;
 }
 
-.btn {
+.btns {
     background: #5D28C0;
     padding: 10px;
     font-weight: 700;
@@ -232,6 +232,12 @@ hr{
 
 }
 
+@media (min-width: 992px) and (max-width: 1492px) {
+    .space{
+        margin-bottom: 10px;
+    }
+}
+
 @media (min-width: 992px) {
     .reg-button {
         margin-bottom: 0;
@@ -268,17 +274,42 @@ hr{
         top: 30%;
         padding: 80px 20px;
     }
-}
-@media (min-width: 401px) and (max-width: 767px) {
-    .hero-section{
-        height: 70vh;
+    .space{
+        margin-bottom: 10px;
     }
 }
+@media (max-width:767px){
+   
+    .space{
+        margin-bottom: 10px;
+    }
+    .top{
+        margin-top: 40px;
+    }
+}
+@media (min-width: 401px) and (max-width: 767px) {
+   
+    .position{
+    width: 250px;
+    margin: 0 auto;
+}
+.hero-pic-cont{
+    margin: 0 auto;
+}
+}
 @media (max-width: 400px) {
+    .btn{
+        width: 200px;
+    }
+    .hero-section{
+        height: 100%;
+        min-height: 500px;
+        max-height: 700px;
+    }
     .navbar-brand {
         width: 60%;
     }
-
+    
     .hero-section {
         height: 60vh;
     }
